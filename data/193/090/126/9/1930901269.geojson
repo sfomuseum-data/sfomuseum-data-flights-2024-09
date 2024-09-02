@@ -2,10 +2,12 @@
   "id": 1930901269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-01",
+    "date:cessation_upper": "2024-09-01",
     "date:inception_lower": "2024-09-01",
     "date:inception_upper": "2024-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-01",
+    "edtf:cessation": "2024-09-01T22:34:09Z",
+    "edtf:inception": "2024-09-01T17:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.580671,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528779,
     "sfomuseum:base_flight_id": "20240901-D-ANZ-9569",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27283",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96845103",
+      "swim:gufi": "KO47450100"
+    },
     "wof:country": "US",
     "wof:created": 1725295082,
     "wof:geomhash": "739cf7062aa24bbf1662c0bae366af8d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930901269,
     "wof:involves": [
+      1528104575,
       102528779,
       102527513,
       1159285413,
       1914600937,
       1159283697
     ],
-    "wof:lastmodified": 1725295082,
+    "wof:lastmodified": 1725295337,
     "wof:name": "UA2492 (SFO-RDU)",
     "wof:parent_id": 1914600937,
     "wof:placetype": "custom",
