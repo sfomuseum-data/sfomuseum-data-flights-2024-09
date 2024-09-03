@@ -2,10 +2,12 @@
   "id": 1930905065,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-02",
-    "date:inception_upper": "2024-09-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-02",
+    "date:cessation_lower": "2024-09-03",
+    "date:cessation_upper": "2024-09-03",
+    "date:inception_lower": "2024-09-03",
+    "date:inception_upper": "2024-09-03",
+    "edtf:cessation": "2024-09-03T03:31:00Z",
+    "edtf:inception": "2024-09-03T02:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240902-A-AMX-4109",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N877DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96891981",
+      "swim:gufi": "KL04256300"
+    },
     "wof:country": "US",
     "wof:created": 1725379906,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159284261,
       1914601435,
-      1159283539
+      1159283539,
+      1377564285
     ],
-    "wof:lastmodified": 1725379906,
+    "wof:lastmodified": 1725382178,
     "wof:name": "DL2239 (LAX-SFO)",
     "wof:parent_id": 1914601435,
     "wof:placetype": "custom",

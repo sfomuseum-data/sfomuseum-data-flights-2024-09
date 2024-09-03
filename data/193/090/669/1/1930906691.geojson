@@ -2,10 +2,12 @@
   "id": 1930906691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-02",
+    "date:cessation_upper": "2024-09-02",
     "date:inception_lower": "2024-09-02",
     "date:inception_upper": "2024-09-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-02",
+    "edtf:cessation": "2024-09-02T08:40:00Z",
+    "edtf:inception": "2024-09-02T07:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-09-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -48,6 +52,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96897201",
+      "swim:gufi": "KL00240200"
+    },
     "wof:country": "US",
     "wof:created": 1725380469,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1930906691,
     "wof:involves": [
+      1914600867,
+      1159289945,
       102527513,
       102533795,
-      1159285413,
-      1914600867
+      1159285413
     ],
-    "wof:lastmodified": 1725380469,
+    "wof:lastmodified": 1725382165,
     "wof:name": "UA3758 (LAX-SFO)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",
