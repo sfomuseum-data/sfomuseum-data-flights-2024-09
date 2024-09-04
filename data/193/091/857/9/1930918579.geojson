@@ -1,0 +1,72 @@
+{
+  "id": 1930918579,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-09-03",
+    "date:inception_upper": "2024-09-03",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-09-03",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2024-09-03",
+    "flysfo:estimated_timestamp": 1725381660,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL399",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-BOI",
+    "flysfo:scheduled_timestamp": 1725378600,
+    "flysfo:timestamp": 1725381660,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-116.224634,43.564048",
+    "geom:latitude": 40.591019,
+    "geom:longitude": -119.2977885,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527733,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20240903-D-DAL-399",
+    "sfomuseum:flight_number": [
+      "DAL399",
+      "DL399"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1725467746,
+    "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1930918579,
+        "flight_id": 1930918579
+      }
+    ],
+    "wof:id": 1930918579,
+    "wof:involves": [
+      102527733,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1725467746,
+    "wof:name": "DL399 (SFO-BOI)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -116.224634,
+    43.564048
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-116.224634,43.564048]],"type":"MultiPoint"}
+}
