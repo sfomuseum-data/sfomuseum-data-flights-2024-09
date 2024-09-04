@@ -2,10 +2,12 @@
   "id": 1930914613,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-03",
+    "date:cessation_upper": "2024-09-03",
     "date:inception_lower": "2024-09-03",
     "date:inception_upper": "2024-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-03",
+    "edtf:cessation": "2024-09-03T07:03:36Z",
+    "edtf:inception": "2024-09-03T05:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240903-A-AMX-4717",
@@ -53,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "96973671",
+      "swim:gufi": "KS14461300"
+    },
     "wof:country": "US",
     "wof:created": 1725466308,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1930914613,
     "wof:involves": [
-      102527513,
       102533269,
       1159284261,
       1914601423,
-      1159283539
+      1159283539,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1725466308,
+    "wof:lastmodified": 1725468573,
     "wof:name": "DL1730 (SEA-SFO)",
     "wof:parent_id": 1914601423,
     "wof:placetype": "custom",

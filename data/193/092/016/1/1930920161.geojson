@@ -2,10 +2,12 @@
   "id": 1930920161,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-03",
+    "date:cessation_upper": "2024-09-03",
     "date:inception_lower": "2024-09-03",
     "date:inception_upper": "2024-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-03",
+    "edtf:cessation": "2024-09-03T15:59:00Z",
+    "edtf:inception": "2024-09-03T13:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-09-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419084999999995,
     "geom:longitude": -112.0399525,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529249,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N26902",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97018768",
+      "swim:gufi": "KO34334300"
+    },
     "wof:country": "US",
     "wof:created": 1725468294,
     "wof:geomhash": "749696abda6afece8bfb20d9b4325da6",
@@ -86,9 +99,10 @@
       102529249,
       102527513,
       1159285413,
-      1914601089
+      1914601089,
+      1159289995
     ],
-    "wof:lastmodified": 1725468294,
+    "wof:lastmodified": 1725468537,
     "wof:name": "UA3898 (SFO-AMA)",
     "wof:parent_id": 1914601089,
     "wof:placetype": "custom",

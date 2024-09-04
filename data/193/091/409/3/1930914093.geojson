@@ -2,10 +2,12 @@
   "id": 1930914093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-04",
+    "date:cessation_upper": "2024-09-04",
     "date:inception_lower": "2024-09-03",
     "date:inception_upper": "2024-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-03",
+    "edtf:cessation": "2024-09-04T04:19:52Z",
+    "edtf:inception": "2024-09-03T23:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +58,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97045482"
+    },
     "wof:country": "US",
     "wof:created": 1725466129,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -94,7 +102,7 @@
       1914601217,
       1159283717
     ],
-    "wof:lastmodified": 1725466129,
+    "wof:lastmodified": 1725468571,
     "wof:name": "AS876 (HNL-SFO)",
     "wof:parent_id": 1914601217,
     "wof:placetype": "custom",
