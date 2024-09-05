@@ -2,10 +2,12 @@
   "id": 1930926527,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-04",
+    "date:cessation_upper": "2024-09-04",
     "date:inception_lower": "2024-09-04",
     "date:inception_upper": "2024-09-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-04",
+    "edtf:cessation": "2024-09-04T20:42:00Z",
+    "edtf:inception": "2024-09-04T18:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20240904-D-ANZ-4610",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CGBIA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97110096",
+      "swim:gufi": "KO57245400"
+    },
     "wof:country": "US",
     "wof:created": 1725553530,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -92,9 +105,10 @@
       102527513,
       1159283597,
       1914601381,
-      1159283697
+      1159283697,
+      1159289407
     ],
-    "wof:lastmodified": 1725553530,
+    "wof:lastmodified": 1725554671,
     "wof:name": "AC567 (SFO-YVR)",
     "wof:parent_id": 1914601381,
     "wof:placetype": "custom",
