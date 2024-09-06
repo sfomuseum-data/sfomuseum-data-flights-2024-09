@@ -2,10 +2,12 @@
   "id": 1930935023,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-05",
+    "date:cessation_upper": "2024-09-05",
     "date:inception_lower": "2024-09-05",
     "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "edtf:cessation": "2024-09-05T09:51:56-07:00",
+    "edtf:inception": "2024-09-05T13:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240905-A-DLH-8741",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N223UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97172918",
+      "swim:gufi": "KS77540500"
+    },
     "wof:country": "US",
     "wof:created": 1725639776,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930935023,
     "wof:involves": [
-      102527513,
-      102542801,
       1159285413,
       1914601063,
-      1159286015
+      1159286015,
+      1159289985,
+      102527513,
+      102542801
     ],
-    "wof:lastmodified": 1725639776,
+    "wof:lastmodified": 1725641321,
     "wof:name": "UA969 (AMS-SFO)",
     "wof:parent_id": 1914601063,
     "wof:placetype": "custom",

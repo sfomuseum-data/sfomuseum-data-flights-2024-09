@@ -2,10 +2,12 @@
   "id": 1930938753,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-05",
-    "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "date:cessation_lower": "2024-09-06",
+    "date:cessation_upper": "2024-09-06",
+    "date:inception_lower": "2024-09-06",
+    "date:inception_upper": "2024-09-06",
+    "edtf:cessation": "2024-09-06T04:41:00Z",
+    "edtf:inception": "2024-09-06T01:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20240905-D-ACA-5117",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N470UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97147866",
+      "swim:gufi": "KO80994500"
+    },
     "wof:country": "US",
     "wof:created": 1725640984,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930938753,
     "wof:involves": [
+      1159292085,
       102528541,
       102527513,
       1159285413,
       1914600931,
       1159283597
     ],
-    "wof:lastmodified": 1725640984,
+    "wof:lastmodified": 1725641335,
     "wof:name": "UA1342 (SFO-DFW)",
     "wof:parent_id": 1914600931,
     "wof:placetype": "custom",

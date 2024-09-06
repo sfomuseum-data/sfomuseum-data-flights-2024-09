@@ -2,10 +2,12 @@
   "id": 1930935471,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-05",
-    "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "date:cessation_lower": "2024-09-05",
+    "date:cessation_upper": "2024-09-05",
+    "date:inception_lower": "2024-09-06",
+    "date:inception_upper": "2024-09-06",
+    "edtf:cessation": "2024-09-05T18:11:13Z",
+    "edtf:inception": "2024-09-05T23:14:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:base_flight_id": "20240905-D-BAW-5615",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N419AN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97174566",
+      "swim:gufi": "KO42581500"
+    },
     "wof:country": "US",
     "wof:created": 1725639922,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930935471,
     "wof:involves": [
+      1159284021,
+      1377564297,
       102529403,
       102527513,
       1159283849,
-      1914601251,
-      1159284021
+      1914601251
     ],
-    "wof:lastmodified": 1725639922,
+    "wof:lastmodified": 1725641351,
     "wof:name": "AA2378 (SFO-PHL)",
     "wof:parent_id": 1914601251,
     "wof:placetype": "custom",

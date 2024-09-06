@@ -2,10 +2,12 @@
   "id": 1930933303,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-05",
-    "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "date:cessation_lower": "2024-09-05",
+    "date:cessation_upper": "2024-09-05",
+    "date:inception_lower": "2024-09-06",
+    "date:inception_upper": "2024-09-06",
+    "edtf:cessation": "2024-09-05T13:54:58-07:00",
+    "edtf:inception": "2024-09-06T02:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N720FR",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS05139600"
+    },
     "wof:country": "US",
     "wof:created": 1725639213,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1930933303,
     "wof:involves": [
+      1159289411,
       102527513,
       102532251,
       1159284401,
       1914601019
     ],
-    "wof:lastmodified": 1725639213,
+    "wof:lastmodified": 1725641312,
     "wof:name": "F93361 (PDX-SFO)",
     "wof:parent_id": 1914601019,
     "wof:placetype": "custom",

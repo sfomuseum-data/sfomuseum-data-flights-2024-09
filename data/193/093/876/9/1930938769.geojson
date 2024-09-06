@@ -2,10 +2,12 @@
   "id": 1930938769,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-06",
+    "date:cessation_upper": "2024-09-06",
     "date:inception_lower": "2024-09-05",
     "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "edtf:cessation": "2024-09-06T07:50:00Z",
+    "edtf:inception": "2024-09-05T16:48:50-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20240905-D-DLH-7498",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27239",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO12827600"
+    },
     "wof:country": "US",
     "wof:created": 1725640989,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930938769,
     "wof:involves": [
-      102533795,
-      102527513,
       1159285413,
       1914600929,
-      1159286015
+      1159286015,
+      1159289871,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1725640989,
+    "wof:lastmodified": 1725641335,
     "wof:name": "UA1485 (SFO-LAX)",
     "wof:parent_id": 1914600929,
     "wof:placetype": "custom",

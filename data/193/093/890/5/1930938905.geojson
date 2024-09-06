@@ -2,10 +2,12 @@
   "id": 1930938905,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-05",
+    "date:cessation_upper": "2024-09-05",
     "date:inception_lower": "2024-09-05",
     "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "edtf:cessation": "2024-09-05T19:37:00Z",
+    "edtf:inception": "2024-09-05T15:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20240905-D-DLH-7785",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N74856",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97188981",
+      "swim:gufi": "KO47635500"
+    },
     "wof:country": "US",
     "wof:created": 1725641033,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930938905,
     "wof:involves": [
+      1159289945,
       102533631,
       102527513,
       1159285413,
       1914600847,
       1159286015
     ],
-    "wof:lastmodified": 1725641033,
+    "wof:lastmodified": 1725641337,
     "wof:name": "UA2145 (SFO-ORD)",
     "wof:parent_id": 1914600847,
     "wof:placetype": "custom",

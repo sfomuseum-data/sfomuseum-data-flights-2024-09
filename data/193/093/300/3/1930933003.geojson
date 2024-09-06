@@ -2,10 +2,12 @@
   "id": 1930933003,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-05",
-    "date:inception_upper": "2024-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-05",
+    "date:cessation_lower": "2024-09-05",
+    "date:cessation_upper": "2024-09-05",
+    "date:inception_lower": "2024-09-06",
+    "date:inception_upper": "2024-09-06",
+    "edtf:cessation": "2024-09-05T12:16:19-07:00",
+    "edtf:inception": "2024-09-06T00:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240905-A-KLM-5902",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N379DA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS85261500"
+    },
     "wof:country": "US",
     "wof:created": 1725639111,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930933003,
     "wof:involves": [
-      102527513,
       102533269,
       1159284261,
       1914601439,
-      1159284613
+      1159284613,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1725639111,
+    "wof:lastmodified": 1725641347,
     "wof:name": "DL2202 (SEA-SFO)",
     "wof:parent_id": 1914601439,
     "wof:placetype": "custom",
