@@ -2,10 +2,12 @@
   "id": 1930943597,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-06",
-    "date:inception_upper": "2024-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-06",
+    "date:cessation_lower": "2024-09-06",
+    "date:cessation_upper": "2024-09-06",
+    "date:inception_lower": "2024-09-07",
+    "date:inception_upper": "2024-09-07",
+    "edtf:cessation": "2024-09-06T15:46:35-07:00",
+    "edtf:inception": "2024-09-07T00:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "PD",
     "flysfo:base_airline": "",
@@ -24,6 +26,7 @@
     "geom:longitude": -98.057846,
     "iata:airline": "PD",
     "iata:base_airline": "",
+    "icao:aircraft": "E295",
     "icao:airline": "POE",
     "icao:base_airline": "TSC",
     "lbl:latitude": 37.61799,
@@ -39,6 +42,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -94,7 +102,7 @@
       1930448513,
       1159283753
     ],
-    "wof:lastmodified": 1725725722,
+    "wof:lastmodified": 1725727610,
     "wof:name": "PD673 (YUL-SFO)",
     "wof:parent_id": 1930448513,
     "wof:placetype": "custom",

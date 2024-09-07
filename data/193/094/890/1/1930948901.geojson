@@ -2,10 +2,12 @@
   "id": 1930948901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-07",
+    "date:cessation_upper": "2024-09-07",
     "date:inception_lower": "2024-09-06",
     "date:inception_upper": "2024-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-06",
+    "edtf:cessation": "2024-09-07T08:04:27Z",
+    "edtf:inception": "2024-09-06T08:15:37-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102542801,
     "sfomuseum:base_flight_id": "20240906-D-ACA-3723",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N782UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97334100",
+      "swim:gufi": "KO62959600"
+    },
     "wof:country": "US",
     "wof:created": 1725727449,
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930948901,
     "wof:involves": [
+      1159283597,
+      1159289985,
       102542801,
       102527513,
       1159285413,
-      1914601071,
-      1159283597
+      1914601071
     ],
-    "wof:lastmodified": 1725727449,
+    "wof:lastmodified": 1725727655,
     "wof:name": "UA968 (SFO-AMS)",
     "wof:parent_id": 1914601071,
     "wof:placetype": "custom",

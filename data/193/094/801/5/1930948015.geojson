@@ -2,10 +2,12 @@
   "id": 1930948015,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-06",
+    "date:cessation_upper": "2024-09-06",
     "date:inception_lower": "2024-09-06",
     "date:inception_upper": "2024-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-06",
+    "edtf:cessation": "2024-09-06T21:15:00Z",
+    "edtf:inception": "2024-09-06T19:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-09-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8716B",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97313958",
+      "swim:gufi": "KO56990600"
+    },
     "wof:country": "US",
     "wof:created": 1725727157,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,9 +99,10 @@
       102531189,
       102527513,
       1159285591,
-      1914601201
+      1914601201,
+      1528104575
     ],
-    "wof:lastmodified": 1725727157,
+    "wof:lastmodified": 1725727634,
     "wof:name": "WN1527 (SFO-DEN)",
     "wof:parent_id": 1914601201,
     "wof:placetype": "custom",

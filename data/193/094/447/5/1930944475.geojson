@@ -2,10 +2,12 @@
   "id": 1930944475,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-07",
+    "date:cessation_upper": "2024-09-07",
     "date:inception_lower": "2024-09-06",
     "date:inception_upper": "2024-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-06",
+    "edtf:cessation": "2024-09-07T05:01:00Z",
+    "edtf:inception": "2024-09-06T23:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240906-A-ANZ-2770",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N76533",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97335685"
+    },
     "wof:country": "US",
     "wof:created": 1725726000,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -92,9 +103,10 @@
       1746879047,
       1159285413,
       1914601367,
-      1159283697
+      1159283697,
+      1159289871
     ],
-    "wof:lastmodified": 1725726000,
+    "wof:lastmodified": 1725727615,
     "wof:name": "UA395 (DCA-SFO)",
     "wof:parent_id": 1914601367,
     "wof:placetype": "custom",
