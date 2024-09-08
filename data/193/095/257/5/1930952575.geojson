@@ -2,10 +2,12 @@
   "id": 1930952575,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-07",
-    "date:inception_upper": "2024-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-07",
+    "date:cessation_lower": "2024-09-07",
+    "date:cessation_upper": "2024-09-07",
+    "date:inception_lower": "2024-09-08",
+    "date:inception_upper": "2024-09-08",
+    "edtf:cessation": "2024-09-07T04:48:04Z",
+    "edtf:inception": "2024-09-08T00:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
     "iata:base_airline": "",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "icao:base_airline": "JBU",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240907-A-JBU-5812",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N395HA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97347467"
+    },
     "wof:country": "US",
     "wof:created": 1725812012,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1930952575,
     "wof:involves": [
+      1159289421,
       102527513,
       102533997,
       1159284489,
       1914601015,
       1159284583
     ],
-    "wof:lastmodified": 1725812012,
+    "wof:lastmodified": 1725813925,
     "wof:name": "HA12 (HNL-SFO)",
     "wof:parent_id": 1914601015,
     "wof:placetype": "custom",

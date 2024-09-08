@@ -2,10 +2,12 @@
   "id": 1930953853,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-07",
+    "date:cessation_upper": "2024-09-07",
     "date:inception_lower": "2024-09-07",
     "date:inception_upper": "2024-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-07",
+    "edtf:cessation": "2024-09-07T03:45:02-07:00",
+    "edtf:inception": "2024-09-07T16:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240907-A-ANA-7284",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N495UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97394182",
+      "swim:gufi": "KS46817700"
+    },
     "wof:country": "US",
     "wof:created": 1725812453,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +106,10 @@
       102533269,
       1159285413,
       1914600867,
-      1159283875
+      1159283875,
+      1159292085
     ],
-    "wof:lastmodified": 1725812453,
+    "wof:lastmodified": 1725813931,
     "wof:name": "UA656 (SEA-SFO)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",

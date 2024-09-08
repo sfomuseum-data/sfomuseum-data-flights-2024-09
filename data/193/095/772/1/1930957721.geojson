@@ -2,10 +2,12 @@
   "id": 1930957721,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
     "date:inception_lower": "2024-09-07",
     "date:inception_upper": "2024-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-07",
+    "edtf:cessation": "2024-09-08T20:01:34Z",
+    "edtf:inception": "2024-09-07T16:44:12-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557783,
     "sfomuseum:base_flight_id": "20240907-D-ANZ-9863",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2142U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97363122",
+      "swim:gufi": "KO09695100"
+    },
     "wof:country": "US",
     "wof:created": 1725813781,
     "wof:geomhash": "148b50b9c1c42c575a8cdcaf5b598e8f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930957721,
     "wof:involves": [
+      1159289993,
       102557783,
       102527513,
       1159285413,
       1914601081,
       1159283697
     ],
-    "wof:lastmodified": 1725813781,
+    "wof:lastmodified": 1725813955,
     "wof:name": "UA863 (SFO-SYD)",
     "wof:parent_id": 1914601081,
     "wof:placetype": "custom",
