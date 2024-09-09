@@ -2,10 +2,12 @@
   "id": 1930962775,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "2024-09-08T08:06:41-07:00",
+    "edtf:inception": "2024-09-08T20:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240908-A-ANZ-9071",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77559",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97501844",
+      "swim:gufi": "KD61910100"
+    },
     "wof:country": "US",
     "wof:created": 1725898852,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -92,9 +106,10 @@
       102531189,
       1159285413,
       1914600923,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1725898852,
+    "wof:lastmodified": 1725900625,
     "wof:name": "UA1812 (DEN-SFO)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",

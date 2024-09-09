@@ -2,10 +2,12 @@
   "id": 1930965629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-09",
+    "date:cessation_upper": "2024-09-09",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "2024-09-09T06:41:00Z",
+    "edtf:inception": "2024-09-08T15:20:09-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-09-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N808DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO14761200"
+    },
     "wof:country": "US",
     "wof:created": 1725899799,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1930965629,
     "wof:involves": [
+      1377564285,
       102527363,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1725899799,
+    "wof:lastmodified": 1725900639,
     "wof:name": "DL9769 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

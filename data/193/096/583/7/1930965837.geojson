@@ -2,10 +2,12 @@
   "id": 1930965837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-09-08T09:46:34-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-09-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N228FR",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1930965837,
     "wof:involves": [
+      1914601019,
+      1159292085,
       102532251,
       102527513,
-      1159284401,
-      1914601019
+      1159284401
     ],
-    "wof:lastmodified": 1725899872,
+    "wof:lastmodified": 1725900640,
     "wof:name": "F93362 (SFO-PDX)",
     "wof:parent_id": 1914601019,
     "wof:placetype": "custom",

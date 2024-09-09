@@ -2,10 +2,12 @@
   "id": 1930963259,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "2024-09-08T13:12:25-07:00",
+    "edtf:inception": "2024-09-08T16:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240908-A-DLH-9408",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2644U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97478311"
+    },
     "wof:country": "US",
     "wof:created": 1725899016,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930963259,
     "wof:involves": [
+      1159286015,
+      1159289993,
       102527513,
       102549057,
       1159285413,
-      1914601085,
-      1159286015
+      1914601085
     ],
-    "wof:lastmodified": 1725899016,
+    "wof:lastmodified": 1725900629,
     "wof:name": "UA927 (FRA-SFO)",
     "wof:parent_id": 1914601085,
     "wof:placetype": "custom",

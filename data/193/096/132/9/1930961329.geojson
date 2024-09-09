@@ -2,10 +2,12 @@
   "id": 1930961329,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-08",
-    "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
+    "date:inception_lower": "2024-09-09",
+    "date:inception_upper": "2024-09-09",
+    "edtf:cessation": "2024-09-08T12:04:34-07:00",
+    "edtf:inception": "2024-09-09T00:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-09-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N684DA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KL84961100"
+    },
     "wof:country": "US",
     "wof:created": 1725898365,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1930961329,
     "wof:involves": [
+      1159289939,
       102527513,
       102526751,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1725898365,
+    "wof:lastmodified": 1725900658,
     "wof:name": "DL8886 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

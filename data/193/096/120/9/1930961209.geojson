@@ -2,10 +2,12 @@
   "id": 1930961209,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-08",
-    "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
+    "date:inception_lower": "2024-09-09",
+    "date:inception_upper": "2024-09-09",
+    "edtf:cessation": "2024-09-08T14:40:49-07:00",
+    "edtf:inception": "2024-09-09T03:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240908-A-AMX-3820",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N928DU",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU07080200"
+    },
     "wof:country": "US",
     "wof:created": 1725898323,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1930961209,
     "wof:involves": [
+      1159283539,
+      1377564285,
       102527513,
       102527363,
       1159284261,
-      1914601433,
-      1159283539
+      1914601433
     ],
-    "wof:lastmodified": 1725898323,
+    "wof:lastmodified": 1725900656,
     "wof:name": "DL1085 (SLC-SFO)",
     "wof:parent_id": 1914601433,
     "wof:placetype": "custom",

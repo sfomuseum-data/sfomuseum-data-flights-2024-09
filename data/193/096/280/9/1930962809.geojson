@@ -2,10 +2,12 @@
   "id": 1930962809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "2024-09-08T04:15:25-07:00",
+    "edtf:inception": "2024-09-08T14:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240908-A-ACA-5573",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N780UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97469042",
+      "swim:gufi": "KG39978100"
+    },
     "wof:country": "US",
     "wof:created": 1725898863,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1930962809,
     "wof:involves": [
+      1159289985,
       102527513,
       102533631,
       1159285413,
       1914600899,
       1159283597
     ],
-    "wof:lastmodified": 1725898863,
+    "wof:lastmodified": 1725900625,
     "wof:name": "UA1983 (ORD-SFO)",
     "wof:parent_id": 1914600899,
     "wof:placetype": "custom",

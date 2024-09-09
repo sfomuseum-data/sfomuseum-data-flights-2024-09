@@ -2,10 +2,12 @@
   "id": 1930960691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-08",
+    "date:cessation_upper": "2024-09-08",
     "date:inception_lower": "2024-09-08",
     "date:inception_upper": "2024-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-08",
+    "edtf:cessation": "2024-09-08T08:26:19Z",
+    "edtf:inception": "2024-09-08T08:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-09-08",
@@ -48,6 +50,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97453037"
+    },
     "wof:country": "US",
     "wof:created": 1725898154,
     "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
@@ -88,7 +93,7 @@
       1159283813,
       1914601213
     ],
-    "wof:lastmodified": 1725898154,
+    "wof:lastmodified": 1725900618,
     "wof:name": "AS9719 (SJC-SFO)",
     "wof:parent_id": 1914601213,
     "wof:placetype": "custom",
