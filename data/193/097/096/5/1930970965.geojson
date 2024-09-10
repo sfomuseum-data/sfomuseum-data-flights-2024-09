@@ -2,10 +2,12 @@
   "id": 1930970965,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-09",
-    "date:inception_upper": "2024-09-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-09",
+    "date:cessation_lower": "2024-09-09",
+    "date:cessation_upper": "2024-09-09",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2024-09-09T07:18:21-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DE",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "DE",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "CFG",
     "icao:base_airline": "ASA",
     "lbl:latitude": 37.612893,
     "lbl:longitude": -122.389652,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159284193,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240909-A-ASA-8832",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1930970965,
     "wof:involves": [
+      1914601013,
+      1159283813,
+      1393786509,
       102527513,
       102549057,
-      1159284193,
-      1914601013,
-      1159283813
+      1159284193
     ],
-    "wof:lastmodified": 1725984710,
+    "wof:lastmodified": 1725987038,
     "wof:name": "DE2092 (FRA-SFO)",
     "wof:parent_id": 1914601013,
     "wof:placetype": "custom",

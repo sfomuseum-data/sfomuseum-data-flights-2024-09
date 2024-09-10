@@ -2,10 +2,12 @@
   "id": 1930976885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-09",
+    "date:cessation_upper": "2024-09-09",
     "date:inception_lower": "2024-09-09",
     "date:inception_upper": "2024-09-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-09",
+    "edtf:cessation": "2024-09-09T10:19:55Z",
+    "edtf:inception": "2024-09-09T06:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-09-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N889UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97536026"
+    },
     "wof:country": "US",
     "wof:created": 1725986730,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1930976885,
     "wof:involves": [
+      1159289407,
       102525635,
       102527513,
       1159285413,
       1914600919
     ],
-    "wof:lastmodified": 1725986730,
+    "wof:lastmodified": 1725987035,
     "wof:name": "UA2351 (SFO-DTW)",
     "wof:parent_id": 1914600919,
     "wof:placetype": "custom",
