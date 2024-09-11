@@ -2,10 +2,12 @@
   "id": 1930985117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-09-10",
+    "date:cessation_upper": "2024-09-10",
     "date:inception_lower": "2024-09-10",
     "date:inception_upper": "2024-09-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-10",
+    "edtf:cessation": "2024-09-10T02:24:00Z",
+    "edtf:inception": "2024-09-10T11:45:11-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20240910-D-FJI-5031",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N444UW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "97613134"
+    },
     "wof:country": "US",
     "wof:created": 1726071993,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1930985117,
     "wof:involves": [
+      1377564297,
       102533795,
       102527513,
       1159283849,
       1914601225,
       1159283717
     ],
-    "wof:lastmodified": 1726071993,
+    "wof:lastmodified": 1726073368,
     "wof:name": "AA1383 (SFO-LAX)",
     "wof:parent_id": 1914601225,
     "wof:placetype": "custom",
