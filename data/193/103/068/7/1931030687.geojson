@@ -2,10 +2,12 @@
   "id": 1931030687,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-15",
-    "date:inception_upper": "2024-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-15",
+    "date:cessation_lower": "2024-09-15",
+    "date:cessation_upper": "2024-09-15",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2024-09-15T02:26:19-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240915-A-ANA-7241",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77865",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -92,9 +100,10 @@
       102533631,
       1159285413,
       1914600875,
-      1159283875
+      1159283875,
+      1159289945
     ],
-    "wof:lastmodified": 1726503748,
+    "wof:lastmodified": 1726505478,
     "wof:name": "UA305 (ORD-SFO)",
     "wof:parent_id": 1914600875,
     "wof:placetype": "custom",
