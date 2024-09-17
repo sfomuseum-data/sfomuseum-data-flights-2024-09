@@ -2,10 +2,12 @@
   "id": 1931039071,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-09-16",
-    "date:inception_upper": "2024-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-16",
+    "date:cessation_lower": "2024-09-16",
+    "date:cessation_upper": "2024-09-16",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2024-09-16T08:31:56-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20240916-A-DLH-7645",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27276",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1931039071,
     "wof:involves": [
-      102527513,
       102533927,
       1159285413,
       1914601379,
-      1159286015
+      1159286015,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1726590025,
+    "wof:lastmodified": 1726591728,
     "wof:name": "UA2077 (EUG-SFO)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

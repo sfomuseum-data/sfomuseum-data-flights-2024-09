@@ -2,10 +2,12 @@
   "id": 1931042117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-09-16",
     "date:inception_upper": "2024-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-16",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-09-16T01:44:20-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:date": "2024-09-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "HA",
+    "icao:aircraft": "A21N",
     "icao:airline": "HAL",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N213HA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1931042117,
     "wof:involves": [
+      1377564297,
       102532929,
       102527513,
       1159284489,
       1914601031
     ],
-    "wof:lastmodified": 1726591043,
+    "wof:lastmodified": 1726591718,
     "wof:name": "HA41 (SFO-OGG)",
     "wof:parent_id": 1914601031,
     "wof:placetype": "custom",
