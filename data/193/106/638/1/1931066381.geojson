@@ -2,10 +2,12 @@
   "id": 1931066381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-09-19",
     "date:inception_upper": "2024-09-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-19",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-09-19T01:09:38-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20240919-D-KLM-6329",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N914DU",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1931066381,
     "wof:involves": [
+      1914601423,
+      1159284613,
+      1377564285,
       102531131,
       102527513,
-      1159284261,
-      1914601423,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1726850266,
+    "wof:lastmodified": 1726851119,
     "wof:name": "DL884 (SFO-MSP)",
     "wof:parent_id": 1914601423,
     "wof:placetype": "custom",
