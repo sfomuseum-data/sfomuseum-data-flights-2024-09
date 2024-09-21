@@ -1,0 +1,72 @@
+{
+  "id": 1931075701,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-09-20",
+    "date:inception_upper": "2024-09-20",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-09-20",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "MX",
+    "flysfo:date": "2024-09-20",
+    "flysfo:estimated_timestamp": 1726850160,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "MX9230",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PVD",
+    "flysfo:scheduled_timestamp": 1726848000,
+    "flysfo:timestamp": 1726850160,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-71.432378,41.727374",
+    "geom:latitude": 39.672681999999995,
+    "geom:longitude": -96.90166049999999,
+    "iata:airline": "MX",
+    "icao:airline": "MXY",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763552131,
+    "sfomuseum:arrival_id": 102526855,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20240920-D-MXY-9230",
+    "sfomuseum:flight_number": [
+      "MXY9230",
+      "MX9230"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1726936851,
+    "wof:geomhash": "0f2e9a7c6aa82bca5f559baf6f896e01",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931075701,
+        "flight_id": 1931075701
+      }
+    ],
+    "wof:id": 1931075701,
+    "wof:involves": [
+      102526855,
+      102527513,
+      1763552131,
+      -1
+    ],
+    "wof:lastmodified": 1726936851,
+    "wof:name": "MX9230 (SFO-PVD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -71.432378,
+    41.727374
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-71.432378,41.727374]],"type":"MultiPoint"}
+}
