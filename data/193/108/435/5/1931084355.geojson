@@ -2,10 +2,12 @@
   "id": 1931084355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-09-21",
     "date:inception_upper": "2024-09-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-09-21",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-09-21T02:21:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "AZU",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:base_flight_id": "20240921-D-AZU-7009",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N25201",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1931084355,
     "wof:involves": [
+      1914600851,
+      1779770723,
+      1159289871,
       102530841,
       102527513,
-      1159285413,
-      1914600851,
-      1779770723
+      1159285413
     ],
-    "wof:lastmodified": 1727023276,
+    "wof:lastmodified": 1727023556,
     "wof:name": "UA2426 (SFO-FLL)",
     "wof:parent_id": 1914600851,
     "wof:placetype": "custom",
