@@ -1,0 +1,72 @@
+{
+  "id": 1931166185,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-09-29",
+    "date:inception_upper": "2024-09-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-09-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2024-09-29",
+    "flysfo:estimated_timestamp": 1727657280,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8884",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-CPS",
+    "flysfo:scheduled_timestamp": 1727652000,
+    "flysfo:timestamp": 1727657280,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-90.165217,38.575556",
+    "geom:latitude": 38.096773,
+    "geom:longitude": -106.26808,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102533437,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20240929-D-DAL-8884",
+    "sfomuseum:flight_number": [
+      "DAL8884",
+      "DL8884"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1727714333,
+    "wof:geomhash": "f516e888b2147d8dfed68b8e49da1dda",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931166185,
+        "flight_id": 1931166185
+      }
+    ],
+    "wof:id": 1931166185,
+    "wof:involves": [
+      102533437,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1727714333,
+    "wof:name": "DL8884 (SFO-CPS)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -90.165217,
+    38.575556
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-90.165217,38.575556]],"type":"MultiPoint"}
+}
